@@ -1,0 +1,99 @@
+@import 'animations.css';
+
+
+.home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    margin:auto;
+    margin-top: 3%;
+    background: url('https://images.unsplash.com/photo-1416169607655-0c2b3ce2e1cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZW52aXJvbm1lbnR8ZW58MHx8MHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+    
+    animation: homepage 1.5s ease-in-out;
+    width:50%;
+    height: 50%;
+    box-shadow: 2px 2px  7px black;
+
+
+}
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.home-img {
+    width: auto;
+    transition: 0.5s;
+   
+ 
+    
+}
+.home-img img:hover {
+    border-radius: 60%;
+    border: 2px solid lightblue;
+    /* box-shadow: -3px 1px 5px rgb(0, 191, 255); */
+}
+.home-img img {
+    width: fit-content;
+    height: fit-content;
+    border:5px solid lightblue;
+    border-radius: 60%;
+    margin: auto;
+    transition: 0.5s;
+    animation: homepage-img 2.5s ease-in-out ;
+}
+
+.text-wrapper {
+    display: flex;
+   font-size: 1rem;
+   background-color: rgb(255, 255, 255);
+   align-items: center;
+   text-align: center;
+   width: 50%;
+   border: 3px solid lightblue;
+   border-radius: 20%;
+   transition: 0.5s;
+   animation: upward-fade-in 2.5s ease-out;
+}
+
+.text-wrapper:hover {
+  box-shadow: -2px 1px 5px rgb(0, 191, 255);
+  border: 7px solid lightblue;
+  
+}
+
+
+.bottom-container {
+    border-top: 1px solid lightgreen;
+    margin-top:4% ;
+    text-align: center;
+    
+    
+}
+.bottom-homepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+   
+
+}
+
+.trending-car {
+    height: 100%;
+    margin: 10%;
+    text-align: center;
+    background-color: azure;
+    box-shadow: 1px 1px 4px black;
+}
+
+.trending-car img {
+    width:100%;
+    height:75%;
+}
+.bottom-homepage {
+    animation: upward-fade-in 3.5s ease-in-out;
+}
+

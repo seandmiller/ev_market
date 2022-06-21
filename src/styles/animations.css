@@ -1,0 +1,32 @@
+@keyframes upward-fade-in {
+    from {
+        transform: translateY(70%);
+        opacity: 0%;
+    } to {
+        transform: translate(0%);
+        opacity: 100%;
+    }
+}
+
+
+@keyframes homepage {
+    from { opacity: 0%;
+        transform: translateX(50%);
+      
+    } to { opacity: 100%;
+        transform: translateX(0%);
+        box-shadow: 2px 2px  7px black;
+    }
+    
+}
+
+@keyframes homepage-img {
+
+    from {
+        transform: scale(0%);
+        opacity:0%;
+    } to {
+        transform: scale(100%);
+        opacity:100%;
+    }
+}
